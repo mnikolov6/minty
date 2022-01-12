@@ -12,6 +12,7 @@ namespace test1
         {
             Write();
             Sum();
+            Sub();
         
         }
         static void Write()
@@ -28,6 +29,19 @@ namespace test1
             Console.WriteLine();
             Console.Write("Result: ");
             Console.WriteLine(num+num2);
+
+
+        }
+        static void Sub()
+        {
+            Console.Write("Num1: ");
+            int num = int.Parse(Console.ReadLine());
+            Console.WriteLine();
+            Console.Write("Num2: ");
+            int num2 = int.Parse(Console.ReadLine());
+            Console.WriteLine();
+            Console.Write("Result: ");
+            Console.WriteLine(num - num2);
 
 
         }
