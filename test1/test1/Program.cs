@@ -10,6 +10,11 @@ namespace test1
     {
         static void Main(string[] args)
         {
+            Write();
+        }
+        static void Write()
+        {
+            Console.WriteLine("Hello world!!");
         }
     }
 }
